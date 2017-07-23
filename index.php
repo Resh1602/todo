@@ -36,7 +36,10 @@ session_start();
 	
 ?>
 
-<html>	
+<html>
+	<head>
+		<title>Todo</title>
+	</head>
 	<body>
 		<form name="f1" method="get" action="">
 			Item <input type="text" name="t1" id="txt1">
